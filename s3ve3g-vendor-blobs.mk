@@ -224,5 +224,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     $(LOCAL_PATH)/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     $(LOCAL_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge\
-    $(LOCAL_PATH)/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
+    $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge
