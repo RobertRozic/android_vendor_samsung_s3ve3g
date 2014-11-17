@@ -185,7 +185,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/nfc.MSM8226.so:system/lib/hw/nfc.MSM8226.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
