@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     $(LOCAL_PATH)/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     $(LOCAL_PATH)/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge
