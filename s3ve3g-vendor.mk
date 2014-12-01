@@ -16,7 +16,8 @@
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    TimeService \
-    libtime_genoff
+    libHevcSwDecoder \
+    libtime_genoff \
+    TimeService
 
 $(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-vendor-blobs.mk)
