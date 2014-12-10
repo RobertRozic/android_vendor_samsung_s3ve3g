@@ -250,9 +250,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC Firmware
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so
+    $(LOCAL_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
 
 # Perf
 PRODUCT_COPY_FILES += \
