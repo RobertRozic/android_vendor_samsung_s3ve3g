@@ -268,7 +268,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so
@@ -278,6 +277,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libdiag.so:system/blobs/s3ve3gds/vendor/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libdsutils.so:system/blobs/s3ve3gds/vendor/lib/libdsutils.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libidl.so:system/blobs/s3ve3gds/vendor/lib/libidl.so \
+    $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqcci_legacy.so:system/blobs/s3ve3gds/vendor/lib/libqcci_legacy.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqmi.so:system/blobs/s3ve3gds/vendor/lib/libqmi.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqmi_cci.so:system/blobs/s3ve3gds/vendor/lib/libqmi_cci.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqmi_client_qmux.so:system/blobs/s3ve3gds/vendor/lib/libqmi_client_qmux.so \
@@ -290,6 +290,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libdsutils.so:system/blobs/s3ve3g/vendor/lib/libdsutils.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libidl.so:system/blobs/s3ve3g/vendor/lib/libidl.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libqmi.so:system/blobs/s3ve3g/vendor/lib/libqmi.so \
+    $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libqcci_legacy.so:system/blobs/s3ve3g/vendor/lib/libqcci_legacy.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libqmi_cci.so:system/blobs/s3ve3g/vendor/lib/libqmi_cci.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libqmi_client_qmux.so:system/blobs/s3ve3g/vendor/lib/libqmi_client_qmux.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/lib/libqmi_csi.so:system/blobs/s3ve3g/vendor/lib/libqmi_csi.so \
